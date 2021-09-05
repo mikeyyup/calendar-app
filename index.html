@@ -15,7 +15,7 @@
 
   <div class="right-nav">
     <div class="dropdown">
-      <button class="drpbtn">Month</button>
+      <button class="drpbtn hover">Month</button>
         <div class="drpbtn-content">
           <a href="">Janauary</a>
           <a href="">February</a>
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="dropdown">
-      <button class="drpbtn">Year</button>
+      <button class="drpbtn hover">Year</button>
         <div class="drpbtn-content">
           <a href="">2016</a>
           <a href="">2017</a>
@@ -60,7 +60,13 @@
     <div class="weekday">Thursday</div>
     <div class="weekday">Friday</div>
     <div class="weekday">Saturday</div>
-    <div class="day"><span>1</span></div>
+    <div class="day"><span>1</span>
+      <div class="event">
+        <a class="hover" href="">event</a>
+        <a class="hover" href="">event</a>
+      </div>
+  
+  </div>
     <div class="day"><span>2</span></div>
     <div class="day"><span>3</span></div>
     <div class="day"><span>4</span></div>
@@ -103,6 +109,19 @@
 </section>
 
 
+
+  <div class="modal ">
+    <div class="form">
+      <h1 class="add-event">Add an Event</h1>
+      <form class="login-form">
+        <input type="text" placeholder="Name of Event"/>
+        <input type="text" placeholder="Time / All Day"/>
+      <div>
+        <button class="modal-btn hover">+ Add</button>
+        <button class="modal-btn red hover">Cancel</button>
+      </div>
+      </form>
+ 
 
 
 </body>

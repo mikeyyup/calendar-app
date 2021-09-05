@@ -27,13 +27,6 @@ h1 {
   font-size: 64px;
 }
 
-.drpbtn {
-  background-color: rgb(164, 164, 164);
-  color: white;
-  font-size: 24px;
-  border: none;
-  padding: 1rem;
-}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -52,19 +45,8 @@ h1 {
   display: block;
 }
 
-.drpbtn-content a:hover {
-  background-color: green;
-}
-
 .dropdown:hover .drpbtn-content {
   display: block;
-}
-
-.dropdown:hover .drpbtn {
-  background-color: gray;
-}
-.drpbtn-content a:hover {
-  background-color: rgb(185, 185, 251);
 }
 
 .calendar {
@@ -117,4 +99,89 @@ footer {
 
 .footer > a {
   text-decoration: none;
+}
+
+.add-event {
+  text-align: center;
+  font-size: 24px;
+  background: #ffffff;
+  padding-bottom: 25px;
+}
+
+.event {
+  width: 100%;
+}
+.event > a {
+  margin: 10px 0;
+  display: block;
+  text-decoration: none;
+  background: #4caf50;
+  color: white;
+}
+
+.modal {
+  width: 125rem;
+  padding: 8% 0 0;
+  margin: auto;
+  background: #ffffff;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  width: 35%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-form {
+  background: #ffffff;
+}
+.form input {
+  font-family: 'Roboto', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button,
+.drpbtn {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.hover:hover,
+.hover:active,
+.hover:focus {
+  background: #43a047;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-form > div {
+  background: #ffffff;
+}
+
+.modal-btn {
+  margin: 10px 0;
+}
+
+.red {
+  background-color: rgb(200, 90, 90);
 }
